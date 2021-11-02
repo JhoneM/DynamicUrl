@@ -8,7 +8,7 @@ class Querys:
     def from_telehealth_room_url(self):
         query = """
             SELECT telehealth_room_url AS url FROM
-        `crx-prod-btsi.NY_BSTI_Dev.Telehealth_Room_URL`
+        `crx-beta-bsti.NY_BSTI_Dev.Telehealth_Room_URL`
         WHERE appointment_id = @appointment_id
         LIMIT 1"""
 

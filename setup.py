@@ -28,7 +28,7 @@ classifiers = [
 
 setup(
     name="getDynamicUrl",
-    version="0.1.1",
+    version="0.1.2",
     license="MIT",
     description="Get dyanmic Url",
     long_description=long_description,

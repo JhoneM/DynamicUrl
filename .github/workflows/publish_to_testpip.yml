@@ -1,12 +1,10 @@
-# This is a basic workflow to help you get started with Actions
-
-name: Test & Upload to TestPyPI
+name: Test & Upload Python 🐍 distributions 📦 to Test-PyPI
 
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push to the master branch
   push:
-    branches: [ main ]
+    branches: [ develop ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
